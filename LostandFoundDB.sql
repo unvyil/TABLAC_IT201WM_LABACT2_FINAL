@@ -1,0 +1,16 @@
+DROP DATABASE IF EXISTS LostandFoundDB;
+CREATE DATABASE LostandFoundDB;
+USE LostandFoundDB;
+
+CREATE TABLE LostItems (
+    Item_ID INT AUTO_INCREMENT PRIMARY KEY,
+    Item_Code VARCHAR(50) NOT NULL,
+    Item_Name VARCHAR(255) NOT NULL,
+    Description TEXT,
+    Location_Found VARCHAR(255) NOT NULL,
+    Date_Reported DATE NOT NULL,
+    Status VARCHAR(50) NOT NULL,
+    QR_Code_Data TEXT
+);
+
+ALTER TABLE LostItems MODIFY ItemID INT AUTO_INCREMENT;
