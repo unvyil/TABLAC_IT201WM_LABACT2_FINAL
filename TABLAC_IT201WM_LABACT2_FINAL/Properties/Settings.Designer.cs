@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TABLAC_IT201WM_LABACT2_FINAL.Properties
+namespace LostFoundQRSystem.Properties
 {
 
 

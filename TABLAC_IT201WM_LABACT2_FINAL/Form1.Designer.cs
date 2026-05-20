@@ -1,4 +1,4 @@
-﻿namespace TABLAC_IT201WM_LABACT2_FINAL
+﻿namespace LostFoundQRSystem
 {
     partial class Form1
     {

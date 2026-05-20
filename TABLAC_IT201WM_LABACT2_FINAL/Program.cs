@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TABLAC_IT201WM_LABACT2_FINAL
+namespace LostFoundQRSystem
 {
     internal static class Program
     {

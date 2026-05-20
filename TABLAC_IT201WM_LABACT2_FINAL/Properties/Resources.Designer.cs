@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TABLAC_IT201WM_LABACT2_FINAL.Properties
+namespace LostFoundQRSystem.Properties
 {
 
 
@@ -44,7 +44,7 @@ namespace TABLAC_IT201WM_LABACT2_FINAL.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("TABLAC_IT201WM_LABACT2_FINAL.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("LostFoundQRSystem.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

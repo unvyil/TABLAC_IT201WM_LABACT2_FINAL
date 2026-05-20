@@ -6,7 +6,7 @@ using System.Data;
 using System.Drawing;
 using System.Windows.Forms;
 
-namespace TABLAC_IT201WM_LABACT2_FINAL
+namespace LostFoundQRSystem
 {
     public partial class Form1 : Form
     {
@@ -24,10 +24,11 @@ namespace TABLAC_IT201WM_LABACT2_FINAL
             dataGridView1.ColumnHeadersDefaultCellStyle.Font = new Font("Inter", 10, FontStyle.Regular);
 
             string guideText = "Welcome to the Smart Lost & Found System!\n\n" +
-                       "1. Click 'Add' to clear fields and get a new Item Code.\n" +
-                       "2. Fill in the Item Details and Status.\n" +
-                       "3. Click 'Generate QR Code' to create the tracking image.\n" +
-                       "4. Click 'Save' to add the item to the database (Note: QR must be generated first).\n\n" +
+                       "1. Open XAMPP and click Start on MySQL to integrate the localhost to the WinForms.\n" +
+                       "2. Click 'Add' to clear fields and get a new Item Code.\n" +
+                       "3. Fill in the Item Details and Status.\n" +
+                       "4. Click 'Generate QR Code' to create the tracking image.\n" +
+                       "5. Click 'Save' to add the item to the database (Note: QR must be generated first).\n\n" +
                        "Use 'Search by QR' or the Search Bar to find specific items in the history.";
 
         MessageBox.Show(guideText, "System User Guide", MessageBoxButtons.OK, MessageBoxIcon.Information);
